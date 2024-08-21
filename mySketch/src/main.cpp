@@ -10,10 +10,6 @@ int main( ){
     settings.glVersionMajor = 3.0;
     settings.glVersionMinor = 3.0;
     settings.transparent = true;
-    settings.windowMode =
-    
-    glfwWindowHint(GLFW_MOUSE_PASSTHRU, GLFW_TRUE);
-    
     auto window = ofCreateWindow(settings);
     
     
